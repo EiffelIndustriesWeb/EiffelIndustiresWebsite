@@ -21,7 +21,7 @@ export default function NavMobile() {
                             <NavItem
                                 parent="Services"
                                 child0="Structural Engineers"
-                                link0="/about"
+                                link0="/structuralEngineers"
                                 child1="Construction"
                                 link1="/about"
                                 child2="Better Build"
