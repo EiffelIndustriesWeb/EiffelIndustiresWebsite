@@ -15,7 +15,7 @@ export default function NavMobile() {
                 <>
                     <ul className="mobile-nav-item--container">
                         <li className="nav-item--parent">
-                            <Link to="/about">ABOUT US</Link>
+                            <Link to="/about">About Us</Link>
                         </li>
                         <li className="nav-item--parent">
                             <NavItem
@@ -29,10 +29,10 @@ export default function NavMobile() {
                             />
                         </li>
                         <li className="nav-item--parent">
-                            <Link to="">WORK</Link>
+                            <Link to="">Work</Link>
                         </li>
                         <li className="nav-item--parent">
-                            <Link to="">CONTACT</Link>
+                            <Link to="">Contact</Link>
                         </li>
                     </ul>
                 </>}

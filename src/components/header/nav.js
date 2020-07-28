@@ -6,13 +6,13 @@ export default function Nav() {
     return (
         <ul className="nav-item--container">
             <li className="nav-item--parent">
-                <Link to="/about">ABOUT US</Link>
+                <Link to="/about">About Us</Link>
             </li>
             <li className="nav-item--parent">
                 <NavItem
                     parent="Services"
                     child0="Structural Engineers"
-                    link0="/about"
+                    link0="/structuralEngineers"
                     child1="Construction"
                     link1="/about"
                     child2="Better Build"
@@ -20,10 +20,10 @@ export default function Nav() {
                 />
             </li>
             <li className="nav-item--parent">
-                <Link to="">WORK</Link>
+                <Link to="">Work</Link>
             </li>
             <li className="nav-item--parent">
-                <Link to="">CONTACT</Link>
+                <Link to="">Contact</Link>
             </li>
         </ul>
     )

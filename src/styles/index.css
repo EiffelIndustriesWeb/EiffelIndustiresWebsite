@@ -14,7 +14,7 @@
 }
 
 .hero-text--items{
-    font-family: nexa_bold, sans-serif;
+    font-family: nexa_light, sans-serif;
     font-size: 3rem;
     line-height: 3.5rem;
     color: var(--prim-color-white);
@@ -27,6 +27,10 @@
     position: relative;
     z-index: 0;
     margin: auto;
+}
+
+.gatsby-image-wrapper {
+    height: 50vh;
 }
 
 .index-body--container{

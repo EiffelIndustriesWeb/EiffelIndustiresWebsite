@@ -1,0 +1,26 @@
+.page--wrapper{
+    padding:2vh 2vw;
+    background:var(--prim-color-white);
+}
+
+.page--text{
+    color:var(--prim-color-black);
+}
+
+.page-list--wrapper{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 1200px) {
+    .page-list--container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .page-list--wrapper{
+        flex-direction: column;
+        text-align:left;
+        margin: auto;
+    }
+}
