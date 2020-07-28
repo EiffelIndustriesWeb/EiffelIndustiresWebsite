@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `EiffelIndustires`,
+    title: `Eiffel Industires`,
     description: `We are nationally recognized, but value the traditions of small buisness.`,
-    author: `@gatsbyjs`,
+    author: `@eiffelIndustreis`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,8 +21,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `##2e388b`,
+        theme_color: `#2e388b`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
