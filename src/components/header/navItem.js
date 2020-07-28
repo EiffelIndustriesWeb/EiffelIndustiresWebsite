@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React, { useState } from 'react'
-
+import './header.css';
 export default function NavItem(props) {
     const [openChild, setOpenChild] = useState(false)
 

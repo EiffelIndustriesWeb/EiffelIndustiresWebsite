@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import Logo from '../assets/logo/logo';
 import Nav from './nav';
+import NavMobile from './navMobile';
 import './header.css';
 
 const Header = ({ siteTitle }) => (
@@ -19,6 +20,7 @@ const Header = ({ siteTitle }) => (
     {/* Navigation Section */}
     <div className={'header-nav--container'}>
       <Nav />
+      <NavMobile />
     </div>
   </header>
 )
