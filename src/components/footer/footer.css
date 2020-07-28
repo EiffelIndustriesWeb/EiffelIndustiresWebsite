@@ -1,0 +1,18 @@
+.footer--wrapper{
+    width: 100vw;
+    text-align:center;
+    margin: auto;
+    background:var(--prim-color-grey);
+    color: var(--prim-color-white);
+    padding:1vh 0;
+}
+
+.footer-container{
+    margin: auto;
+    text-align:center;
+}
+
+.footer-text:hover{
+    color: var(--prim-color-blue);
+    cursor: pointer;
+}

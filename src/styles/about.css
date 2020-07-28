@@ -1,0 +1,8 @@
+.page--wrapper{
+    padding:2vh 2vw;
+    background:var(--prim-color-white);
+}
+
+.page--text{
+    color:var(--prim-color-black);
+}

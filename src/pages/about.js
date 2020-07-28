@@ -1,0 +1,50 @@
+import React from "react"
+import { Link } from "gatsby"
+import "../styles/about.css"
+import "../styles/global.css"
+
+import Layout from "../components/layout"
+import ImageAbout from "../components/imageAbout.js"
+import SEO from "../components/seo"
+
+const AboutPage = () => (
+    <Layout>
+        <SEO title="About" />
+        <div className="hero-text--container">
+            <h1 className="hero-text--items">About Us</h1>
+        </div>
+        <div className="hero-image--container">
+            <ImageAbout />
+
+        </div>
+        <div className="page--wrapper">
+            <h2>The EIFFEL Industries Advantage</h2>
+            <p className="page--text">We enter every construction site with the goal of working on the project with focused precision. We prefer to be involved in the early design phases of a project in order to work closely with the owner, architect, design/build contractor, and other consultants to make sure that the structure is cost-effective while guaranteeing that it meets the needs of everyone involved.
+            <p className="page--text">Our engineering team can design and engineer retail spaces, corporate offices, schools, hospitals, heavy industrial buildings, mixed-use development, multifamily homes, and new custom home builds.</p>
+                <p className="page--text">Our construction division has the experience and expertise to not only provide architectural and engineering services but to also undertake turnkey design build projects from inception to completion. Eiffel construction has the qualifications and experience for heavy industrial, wastewater, water treatment plants, commercial, retail, offices, and mixed-use development.</p>
+                <p className="page--text">What sets us apart is our ability to use our in house IT solutions and tools to increase our efficiently in project management and project execution.</p>
+            </p>
+            <h3>Memberships and Affiliations</h3>
+            <ul className="page--text">
+                <li>American Concrete Institute (ACI, Professional Member)</li>
+                <li>American Institute of Steel Construction (AISC)</li>
+                <li>American Society of Civil Engineers (ASCE, Affiliate Member)</li>
+            </ul>
+
+            <h3>Licenses</h3>
+            <ul className="page--text">
+                <li>KB-1 311191</li>
+                <li>A 162106</li>
+            </ul>
+            <h3>Professional Engineer Registration</h3>
+            <ul className="page--text">
+                <li>Arizona License No. #44084</li>
+                <li>California License No. #C75921</li>
+            </ul>
+            <h3>Key Persons</h3>
+        </div>
+        {/* <Link to="/page-2/">Go to page 2</Link> <br /> */}
+    </Layout>
+)
+
+export default AboutPage
