@@ -14,9 +14,9 @@ export default function Nav() {
                     child0="Structural Engineers"
                     link0="/structuralEngineers"
                     child1="Construction"
-                    link1="/about"
+                    link1="/construction"
                     child2="Better Build"
-                    link2="https://dunamispacific.com/"
+                    link2="/betterBuild"
                 />
             </li>
             <li className="nav-item--parent">

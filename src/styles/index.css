@@ -30,7 +30,7 @@
 }
 
 .gatsby-image-wrapper {
-    height: 50vh;
+    height: 70vh;
 }
 
 .index-body--container{
@@ -45,8 +45,13 @@
 
 .index-card--wrapper {
     text-align: center;
-    padding: 5vh 0;
-    width: 30vw;
+    padding: 5vh 2vw;
+    width: 100vw;
+    height: 35vhv;
+}
+
+img.index-card--icon {
+    width: 50%;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -71,15 +76,15 @@
         flex-direction: column;
         justify-content: space-evenly;
     }
-    
     .index-card--wrapper {
         text-align: center;
-        padding: 5vh 0;
-        width: 100vw;
+        padding: 1vh 4vw;
+        width: 92vw;
         height: 50vh;
     }
-    .index-card--icon{
-        height: 65%;
-    }
     
+}
+
+.icon-1{
+    fill: red;
 }

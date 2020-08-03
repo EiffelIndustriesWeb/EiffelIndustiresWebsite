@@ -4,21 +4,21 @@ import "../styles/page.css"
 import "../styles/global.css"
 
 import Layout from "../components/layout"
-import ImageStructuralEngineers from "../components/imageStructuralEngineers.js"
+import ImageBetterBuild from "../components/imageBetterBuild.js"
 import SEO from "../components/seo"
 
-const StructuralEngineersPage = () => (
+const BetterBuildPage = () => (
     <Layout>
         <SEO title="Structural Engineers" />
         <div className="hero-text--container">
-            <h1 className="hero-text--items">Structural Engineers</h1>
+            <h1 className="hero-text--items">Better Build</h1>
         </div>
         <div className="hero-image--container">
-            <ImageStructuralEngineers />
+            <ImageBetterBuild />
 
         </div>
         <div className="page--wrapper">
-            <h2>EIFFEL STRUCTURAL ENGINEERS</h2>
+            <h2>BETTER BUILD</h2>
             <p className="page--text">Offer extensive range of structural engineering services from concept to design to execution of projects including offices, retail, schools, student housing, hospitals, heavy industrial structures, single-family custom homes, multifamily homes and more. We’re a dependable structural engineers with over 30+ years of experience, based in Scottsdale Arizona.
             <p className="page--text">Beyond the traditional structural engineering domain, our team always considers the quality of construction and the economics of value of our design concept for each project and offers sustainable design concepts for our clients.</p>
             </p>
@@ -62,7 +62,6 @@ const StructuralEngineersPage = () => (
                     <li>Underpinning and Piles</li>
                 </ul>
             </div>
-            <ImageStructuralEngineers />
             <h3>PORTFOLIO</h3>
             <p>AZ (Natural Groceries and Fry’s Food Locations, USDA Forest Service Building, US Airways Arena Jumbo Tron)</p>
             <p>AZ AquaTots Head Quarters</p>
@@ -77,4 +76,4 @@ const StructuralEngineersPage = () => (
     </Layout>
 )
 
-export default StructuralEngineersPage
+export default BetterBuildPage
