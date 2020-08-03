@@ -5,7 +5,9 @@ import "../styles/global.css"
 
 import Layout from "../components/layout"
 import ImageAbout from "../components/imageAbout.js"
+
 import SEO from "../components/seo"
+import TeamUx from "../components/teamUx"
 
 const AboutPage = () => (
     <Layout>
@@ -42,6 +44,7 @@ const AboutPage = () => (
                 <li>California License No. #C75921</li>
             </ul>
             <h3>Key Persons</h3>
+            <TeamUx />
         </div>
         {/* <Link to="/page-2/">Go to page 2</Link> <br /> */}
     </Layout>
