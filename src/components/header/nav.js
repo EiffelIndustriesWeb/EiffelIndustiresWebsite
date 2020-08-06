@@ -20,9 +20,6 @@ export default function Nav() {
                 />
             </li>
             <li className="nav-item--parent">
-                <Link to="">Work</Link>
-            </li>
-            <li className="nav-item--parent">
                 <Link to="">Contact</Link>
             </li>
         </ul>

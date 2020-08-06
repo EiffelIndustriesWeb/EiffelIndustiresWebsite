@@ -5,6 +5,7 @@ import "../styles/global.css"
 
 import Layout from "../components/layout"
 import ImageStructuralEngineers from "../components/imageStructuralEngineers.js"
+import SlideshowStructuralEngineering from "../components/slideshowStructuralEngineering.js"
 import SEO from "../components/seo"
 
 const StructuralEngineersPage = () => (
@@ -13,17 +14,20 @@ const StructuralEngineersPage = () => (
         <div className="hero-text--container">
             <h1 className="hero-text--items">Structural Engineers</h1>
         </div>
-        <div className="hero-image--container">
+        <div className="header-image--container">
             <ImageStructuralEngineers />
 
         </div>
         <div className="page--wrapper">
-            <h2>EIFFEL STRUCTURAL ENGINEERS</h2>
+            <h2 className="page-body--text-header">EIFFEL STRUCTURAL ENGINEERS</h2>
             <p className="page--text">Offer extensive range of structural engineering services from concept to design to execution of projects including offices, retail, schools, student housing, hospitals, heavy industrial structures, single-family custom homes, multifamily homes and more. We’re a dependable structural engineers with over 30+ years of experience, based in Scottsdale Arizona.
             <p className="page--text">Beyond the traditional structural engineering domain, our team always considers the quality of construction and the economics of value of our design concept for each project and offers sustainable design concepts for our clients.</p>
             </p>
             <p className="page--text">We have the expertise and knowledge to investigate many practical and cost-effective structural systems based on green technology, local conditions and materials. Our pioneering experience in composite materials like ICF form blocks, SIPs, Adobe, Perform walls, Shipping containers, LEED certified re-cycled products, special military grade metal composite panels and various non-conventional products make us stand out in the market.</p>
             <p className="page--text">We have extensive experience in Building Information Modeling (BIM) with cutting edge 3D technology to integrate structural design with architectural, mechanical, electrical, plumbing, and process piping. We work in Revit® Structure, Bluebeam, AutoCAD 2D and 3D, STAAD, ETABS, RAM Structural, Enercalc, TEKLA and other industry-specific software.</p>
+
+            <SlideshowStructuralEngineering />
+
             <h3>Engineering Services:</h3>
             <div className={'page-list--wrapper'}>
                 <ul className="page-list--container">
@@ -62,7 +66,6 @@ const StructuralEngineersPage = () => (
                     <li>Underpinning and Piles</li>
                 </ul>
             </div>
-            <ImageStructuralEngineers />
             <h3>PORTFOLIO</h3>
             <p>AZ (Natural Groceries and Fry’s Food Locations, USDA Forest Service Building, US Airways Arena Jumbo Tron)</p>
             <p>AZ AquaTots Head Quarters</p>

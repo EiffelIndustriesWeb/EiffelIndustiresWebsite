@@ -13,7 +13,7 @@ const BetterBuildPage = () => (
         <div className="hero-text--container">
             <h1 className="hero-text--items">Better Build</h1>
         </div>
-        <div className="hero-image--container">
+        <div className="header-image--container">
             <ImageBetterBuild />
 
         </div>

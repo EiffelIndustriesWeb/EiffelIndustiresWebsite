@@ -9,8 +9,7 @@ export default function PersonCard(props) {
           placeholderImage: file(relativePath: { eq: "team/samBiswasProfile.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 3000, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG              }
             }
           }
         }
@@ -18,7 +17,9 @@ export default function PersonCard(props) {
 
   return (
     <div className="person-card--container">
-      <Img fluid={props.profileImage} />
+      <div className="person-card--image--container">
+        <Img className="person-card--image" fluid={props.profileImage} />
+      </div>
       <h4>{props.name}</h4>
       <h5>{props.title}</h5>
       <p>{props.bio}</p>

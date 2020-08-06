@@ -29,9 +29,6 @@ export default function NavMobile() {
                             />
                         </li>
                         <li className="nav-item--parent">
-                            <Link to="">Work</Link>
-                        </li>
-                        <li className="nav-item--parent">
                             <Link to="">Contact</Link>
                         </li>
                     </ul>

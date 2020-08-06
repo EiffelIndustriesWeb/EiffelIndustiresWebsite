@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../styles/about.css"
+import "../styles/page.css"
 import "../styles/global.css"
 
 import Layout from "../components/layout"
@@ -15,12 +15,12 @@ const AboutPage = () => (
         <div className="hero-text--container">
             <h1 className="hero-text--items">About Us</h1>
         </div>
-        <div className="hero-image--container">
+        <div className="header-image--container">
             <ImageAbout />
 
         </div>
         <div className="page--wrapper">
-            <h2>The EIFFEL Industries Advantage</h2>
+            <h2 className="page-body--text-header">The EIFFEL Industries Advantage</h2>
             <p className="page--text">We enter every construction site with the goal of working on the project with focused precision. We prefer to be involved in the early design phases of a project in order to work closely with the owner, architect, design/build contractor, and other consultants to make sure that the structure is cost-effective while guaranteeing that it meets the needs of everyone involved.
             <p className="page--text">Our engineering team can design and engineer retail spaces, corporate offices, schools, hospitals, heavy industrial buildings, mixed-use development, multifamily homes, and new custom home builds.</p>
                 <p className="page--text">Our construction division has the experience and expertise to not only provide architectural and engineering services but to also undertake turnkey design build projects from inception to completion. Eiffel construction has the qualifications and experience for heavy industrial, wastewater, water treatment plants, commercial, retail, offices, and mixed-use development.</p>

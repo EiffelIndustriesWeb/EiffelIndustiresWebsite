@@ -19,8 +19,7 @@ const ImageConstruction = () => {
       placeholderImage: file(relativePath: { eq: "construction-hero.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 3000, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG          }
         }
       }
     }

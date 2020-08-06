@@ -14,19 +14,18 @@ import Img from "gatsby-image"
  */
 
 const ImageBetterBuild = () => {
-    const data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "betterBuild-hero.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 3000, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG          }
         }
       }
     }
   `)
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default ImageBetterBuild

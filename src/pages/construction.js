@@ -14,15 +14,16 @@ const ConstructionPage = () => (
         <div className="hero-text--container">
             <h1 className="hero-text--items">Construction</h1>
         </div>
-        <div className="hero-image--container">
+        <div className="header-image--container">
             <ImageConstruction />
         </div>
         <div className="page--wrapper">
-            <h2>EIFFEL CONSTRUCTION</h2>
+            <h2 className="page-body--text-header">EIFFEL CONSTRUCTION</h2>
             <p className="page--text"> is a professional Turn-key and Design build firm where highly experienced construction professionals collaborate to create and develop innovative, and quality building solutions for our clients with focus on cost savings, green footprint and timely completion with budget.
             </p>
             <p className="page--text">Our vision is to provide tailored Construction solutions to global clients across multiple market verticals through highly efficient collaborative environment solving actual construction challenges ahead with the best in class leadership and leading-edge technology, and with the least footprint on our environment.</p>
-            <p className="page--text">For our California clients, please see our affiliate site </p><Link>Wild Fire Design Build</Link>
+            <p className="page--text">For our California clients, please see our affiliate site </p><Link className='page-text--link'>Wild Fire Design Build</Link>
+            <SlideshowConstruction />
             <h3>Construction Services:</h3>
             <h4>Commercial Retail</h4>
             <p className="page--text">Highway frontages, single tenant retail buildings, small neighborhood shopping centers, larger centers with grocery store anchor tenants, anchor stores such as Wal-Mart, Target, Costco, regional and outlet malls.</p>
@@ -30,7 +31,6 @@ const ConstructionPage = () => (
             <p className="page--text">Smaller properties, often called “Flex” or “R&D” properties, to larger office service or office warehouse properties to the very large “big box” industrial properties. An important, defining characteristic of industrial space is Clear Height. Clear height is the actual height, to the bottom of the steel girders in the interior of the building. This might be 14–16 feet for smaller properties, and 40+ feet for larger properties. We also consider the type and number of docks that the property has. These can be Grade Level, where the parking lot and the warehouse floor are on the same level, to semi-dock height at 24 inches, which is the height of a pickup truck or delivery truck, or a full-dock at 48 inches which is semi-truck height. Some buildings may even have a rail spur for train cars to load and unload.</p>
             <h4>Commercial Shell Buildings</h4>
             <p className="page--text">A tenant rents a property with an unfinished interior to which he or she will finish construction and make improvements.</p>
-            <SlideshowConstruction />
             <h4>Commercial Tenant Improvements</h4>
             <p className="page--text">Customized alterations a building owner makes to rental space as part of a lease agreement, to configure the space for the needs of that tenant.</p>
             <h4>Commercial Office Buildings</h4>

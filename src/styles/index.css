@@ -30,7 +30,7 @@
 }
 
 .gatsby-image-wrapper {
-    height: 70vh;
+    height: 100%;
 }
 
 .index-body--container{
@@ -45,15 +45,18 @@
 
 .index-card--wrapper {
     text-align: center;
-    padding: 5vh 2vw;
+    padding: 2vh 2vw;;
     width: 100vw;
-    height: 35vhv;
+    height: max-content;
 }
 
 img.index-card--icon {
     width: 50%;
 }
-
+.index-card--title{
+    text-align:center;
+    margin:auto ;
+}
 @media only screen and (max-width: 1200px) {
     .hero-text--items{
         font-size: 2rem;
@@ -80,11 +83,7 @@ img.index-card--icon {
         text-align: center;
         padding: 1vh 4vw;
         width: 92vw;
-        height: 50vh;
+        height: min-content;
     }
     
-}
-
-.icon-1{
-    fill: red;
 }

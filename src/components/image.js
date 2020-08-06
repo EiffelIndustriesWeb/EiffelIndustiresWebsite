@@ -19,8 +19,7 @@ const Image = () => {
       placeholderImage: file(relativePath: { eq: "hero-0.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 3000, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG          }
         }
       }
     }

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import "../styles/page.css"
@@ -14,9 +14,12 @@ import "../styles/page.css"
  */
 
 function SlideShowConstruction() {
-    const [index, setIndex] = useState(0)
-    const { allFile } = useStaticQuery(
-        graphql`
+  const [index, setIndex] = useState(0)
+  const [seconds, setSeconds] = useState(0);
+  const [isActive, setIsActive] = useState(true);
+
+  const { allFile } = useStaticQuery(
+    graphql`
       query {
         allFile(
           sort: { fields: name, order: DESC }
@@ -36,31 +39,53 @@ function SlideShowConstruction() {
         }
       }
     `
-    )
-    //Minus 1 for array offset from 0
-    const length = allFile.edges.length - 1
-    const handleNext = () =>
-        index === length ? setIndex(0) : setIndex(index + 1)
-    const handlePrevious = () =>
-        index === 0 ? setIndex(length) : setIndex(index - 1)
-    const { node } = allFile.edges[index]
-    console.log(index)
-    console.log(length)
-    return (
-        <div>
-            <div className="slideshow--image"
-            >
-                <Img
-                    fluid={node.childImageSharp.fluid}
-                    key={node.id}
-                    alt={node.name.replace(/-/g, " ").substring(2)}
-                />
-            </div>
-            <div>
-                <button onClick={() => handlePrevious()}>Previous</button>
-                <button onClick={() => handleNext()}>Next</button>
-            </div>
-        </div>
-    )
+  )
+
+  const length = allFile.edges.length - 2
+  const { node } = allFile.edges[index]
+
+  // SlideShow timer effect
+  useEffect(() => {
+    setTimeout(() => {
+      if (isActive) {
+        if (seconds < 100) {
+          setSeconds(seconds + 1)
+        }
+        else {
+          setSeconds(0)
+          index === length ? setIndex(0) : setIndex(index + 1)
+        }
+      }
+    }, [seconds]);
+  })
+
+  // SlideShow Button
+  const handleNext = () => {
+    index === length ? setIndex(0) : setIndex(index + 1)
+    setIsActive(false)
+  }
+
+  const handlePrevious = () => {
+    index === 0 ? setIndex(length) : setIndex(index - 1)
+    setIsActive(false)
+  }
+
+  return (
+    <div>
+      <div className="slideshow--image"
+      >
+        {/* {seconds} */}
+        <Img
+          fluid={node.childImageSharp.fluid}
+          key={node.id}
+          alt={node.name.replace(/-/g, " ").substring(2)}
+        />
+      </div>
+      <div>
+        <button onClick={() => handlePrevious()}>Previous</button>
+        <button onClick={() => handleNext()}>Next</button>
+      </div>
+    </div>
+  )
 }
 export default SlideShowConstruction
