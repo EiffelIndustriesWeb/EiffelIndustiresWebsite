@@ -6,7 +6,13 @@ export default function Nav() {
     return (
         <ul className="nav-item--container">
             <li className="nav-item--parent">
-                <Link to="/about">About Us</Link>
+                <NavItem
+                    parent="About Us"
+                    child0="About"
+                    link0="/about"
+                    child1="Press Release"
+                    link1="/press"
+                />
             </li>
             <li className="nav-item--parent">
                 <NavItem

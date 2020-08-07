@@ -20,7 +20,7 @@ export default function PersonCard(props) {
       <div className="person-card--image--container">
         <Img className="person-card--image" fluid={props.profileImage} />
       </div>
-      <h4>{props.name}</h4>
+      <h4 className="person-card--title">{props.name}</h4>
       <h5>{props.title}</h5>
       <p>{props.bio}</p>
     </div>

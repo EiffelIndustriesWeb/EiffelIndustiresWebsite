@@ -78,13 +78,20 @@
 }
 
 .person-card--container {
-    width: 30vw;
+    width: 29vw;
     padding: 1vw;
+}
+
+.person-card--image--container {
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
 }
 
 @media only screen and (max-width: 1200px) {
     .person-card--container {
-        width: 46vw;
+        width: 45vw;
         padding: 1vw;
     }
 }
@@ -99,6 +106,13 @@
 .person-card--image{
     height: 50%;
     width:  50%;
+}
+
+.person-card--title{
+    width: max-content;
+    background: var(--prim-color-lightBlue);
+    color: var(--prim-color-white);
+    padding: .5rem;
 }
 
 .slideshow--image {
