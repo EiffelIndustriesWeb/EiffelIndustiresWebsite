@@ -12,14 +12,13 @@ import "../styles/page.css"
  * - `gatsby-image`: https://gatsby.dev/gatsby-image
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
-
 function SlideShowStructuralEngineering() {
-    const [index, setIndex] = useState(0)
-    const [seconds, setSeconds] = useState(0);
-    const [isActive, setIsActive] = useState(true);
+  const [index, setIndex] = useState(0)
+  const [seconds, setSeconds] = useState(0);
+  const [isActive, setIsActive] = useState(true);
 
-    const { allFile } = useStaticQuery(
-        graphql`
+  const { allFile } = useStaticQuery(
+    graphql`
       query {
         allFile(
           sort: { fields: name, order: DESC }
@@ -39,53 +38,64 @@ function SlideShowStructuralEngineering() {
         }
       }
     `
-    )
+  )
 
-    const length = allFile.edges.length - 1
-    const { node } = allFile.edges[index]
+  const length = allFile.edges.length - 2
+  const { node } = allFile.edges[index]
 
-    // SlideShow timer effect
-    useEffect(() => {
-        setTimeout(() => {
-            if (isActive) {
-                if (seconds < 100) {
-                    setSeconds(seconds + 1)
-                }
-                else {
-                    setSeconds(0)
-                    index === length ? setIndex(0) : setIndex(index + 1)
-                }
-            }
-        }, [seconds]);
-    })
+  // SlideShow timer
+  useEffect(() => {
+    setTimeout(() => {
+      if (isActive) {
+        if (seconds < 100) {
+          setSeconds(seconds + 1)
+        }
+        else {
+          setSeconds(0)
+          index === length ? setIndex(0) : setIndex(index + 1)
+        }
+      }
+    }, [seconds]);
+  })
 
-    // SlideShow Button
-    const handleNext = () => {
-        index === length ? setIndex(0) : setIndex(index + 1)
-        setIsActive(false)
-    }
+  // SlideShow Buttons
+  const handleNext = () => {
+    index === length ? setIndex(0) : setIndex(index + 1)
+    setIsActive(false)
+  }
 
-    const handlePrevious = () => {
-        index === 0 ? setIndex(length) : setIndex(index - 1)
-        setIsActive(false)
-    }
+  const handlePrevious = () => {
+    index === 0 ? setIndex(length) : setIndex(index - 1)
+    setIsActive(false)
+  }
 
-    return (
-        <div>
-            <div className="slideshow--image"
-            >
-                {/* {seconds} */}
-                <Img
-                    fluid={node.childImageSharp.fluid}
-                    key={node.id}
-                    alt={node.name.replace(/-/g, " ").substring(2)}
-                />
-            </div>
-            <div>
-                <button onClick={() => handlePrevious()}>Previous</button>
-                <button onClick={() => handleNext()}>Next</button>
-            </div>
-        </div>
-    )
+  // SlideShow Dots
+  const slideDots = [];
+  for (let i = 0; i < (length + 1); i++) {
+    slideDots.push(<svg className="slideshow--nav-image" key={i} viewBox="0 0 10 10">
+      {index === i ? <circle style={{ "fill": "#2e388b" }} cx="5" cy="5" r="5" />
+        :
+        <circle style={{ "fill": "lightGrey" }} cx="5" cy="5" r="5" />
+      }
+    </svg>);
+  }
+
+  return (
+    <div className="slideshow--wrapper">
+      <div className="slideshow--image">
+        <Img
+          fluid={node.childImageSharp.fluid}
+          key={node.id}
+          alt={node.name.replace(/-/g, " ").substring(2)}
+        />
+      </div>
+      <div className="slideshow--nav-container">
+        <button onClick={() => handlePrevious()}>Previous</button>
+        {slideDots}
+        <button onClick={() => handleNext()}>Next</button>
+      </div>
+    </div >
+  )
 }
+
 export default SlideShowStructuralEngineering

@@ -11,11 +11,11 @@ import SEO from "../components/seo"
 const StructuralEngineersPage = () => (
     <Layout>
         <SEO title="Structural Engineers" />
-        <div className="hero-text--container">
-            <h1 className="hero-text--items">Structural Engineers</h1>
-        </div>
         <div className="header-image--container">
             <ImageStructuralEngineers />
+            <div className="hero-text--container">
+                <h1 className="hero-text--items">Structural Engineers</h1>
+            </div>
 
         </div>
         <div className="page--wrapper">

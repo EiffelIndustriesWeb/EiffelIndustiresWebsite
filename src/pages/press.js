@@ -12,11 +12,11 @@ import TeamUx from "../components/teamUx"
 const PressPage = () => (
     <Layout>
         <SEO title="Press" />
-        <div className="hero-text--container">
-            <h1 className="hero-text--items">Press</h1>
-        </div>
         <div className="header-image--container">
             <ImageAbout />
+            <div className="hero-text--container">
+                <h1 className="hero-text--items">Press</h1>
+            </div>
 
         </div>
         <div className="page--wrapper">

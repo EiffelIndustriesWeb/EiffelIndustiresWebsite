@@ -11,6 +11,10 @@
     margin: auto;
 }
 
+.header-image--container-full{
+    height: 100%;
+}
+
 .gatsby-image-wrapper {
     height: 100%;
     width: auto;
@@ -77,11 +81,6 @@
     flex-wrap: wrap;
 }
 
-.person-card--container {
-    width: 29vw;
-    padding: 1vw;
-}
-
 .person-card--image--container {
     text-align: center;
     margin: auto;
@@ -89,17 +88,19 @@
     display: flex;
 }
 
+.person-card--container {
+    width: 28vw;
+    padding: 2vh 2vw;
+}
 @media only screen and (max-width: 1200px) {
     .person-card--container {
-        width: 45vw;
-        padding: 1vw;
+        width: 42vw;
     }
 }
 
 @media only screen and (max-width: 650px) {
     .person-card--container {
-        width: 98vw;
-        padding: 1vw;
+        width: 95vw;
     }
 }
 
@@ -117,4 +118,38 @@
 
 .slideshow--image {
     padding-top: 1vh;
+    height: 40vh;
+}
+
+.hero-text--container {
+    width: max-content;
+    height: 0;
+    position: relative;
+    top: -5rem;
+    z-index: 1;
+    margin: 0;
+    left: 1rem;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.slideshow--wrapper{
+    padding:2vh 0;
+}
+
+.slideshow--nav-container{
+    padding:2vh 0;
+    margin:auto;
+    width:min-content;
+    text-align:center;
+    display: flex;
+    justify-content:center;
+}
+
+.slideshow--nav-image{
+    height: .5rem;
+    width: .5rem;
+    padding: 0 0.5rem;
+    margin:auto;
 }

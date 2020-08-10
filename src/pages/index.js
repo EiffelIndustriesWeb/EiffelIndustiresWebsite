@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../styles/index.css"
 import "../styles/global.css"
+import "../styles/index.css"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -15,7 +15,7 @@ import Icon3 from '../components/assets/icons/Icon3.svg';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="hero-text--container">
+    <div className="hero-text--container-index">
       <h2 className="hero-text--items">Providing Solutions to Construct<br /> A Better World</h2>
     </div>
     <div className="hero-image--container">
