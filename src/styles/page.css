@@ -121,6 +121,24 @@
     height: 40vh;
 }
 
+.slideshow--button{
+    background: var(--prim-color-white);
+    color: var(--prim-color-lightBlue);
+    border:solid 2px;
+    border-color: var(--prim-color-lightBlue);
+    border-radius: 0;
+    padding:1rem;
+}
+
+
+.slideshow--button:hover{
+    color:var(--prim-color-white);
+    background: var(--prim-color-lightBlue);
+    border-color: var(--prim-color-white);
+    cursor: pointer;
+}
+
+
 .hero-text--container {
     width: max-content;
     height: 0;
@@ -132,6 +150,16 @@
     text-align: right;
     display: flex;
     flex-direction: row;
+}
+
+.hero-text--items.page {
+    background: transparent;
+    font-family: 'nexa_bold';
+}
+
+.hero-text--items.page-light {
+    background: var(--prim-color-grey);
+    font-family: 'nexa_bold';
 }
 
 .slideshow--wrapper{
@@ -148,8 +176,119 @@
 }
 
 .slideshow--nav-image{
-    height: .5rem;
-    width: .5rem;
+    height: 0.5rem;
+    width: 0.5rem;
     padding: 0 0.5rem;
     margin:auto;
+}
+
+
+.reviewCard--wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 60vw;
+    text-align:center;
+    background: var(--prim-color-lightBlue);
+    color: white;
+    padding:0 20vw;
+    margin: auto;
+}
+
+.reviewCard--title{
+
+}
+.reviewCard--header{
+
+}
+.reviewCard--subHeader{
+
+}
+.reviewCard--description{
+
+}
+.reviewCard--name{
+
+}
+
+
+/* Contact Page */
+.contact-page--wrapper {
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: var(--prim-color-lightBlue);
+    background: var(--prim-color-white);
+}
+
+.contact-page--container-contact{
+    padding:2vh 2vw;
+    position: relative;
+    height: 30vh;
+}
+
+.contact-page--container-hours {
+    width: 100vw;
+    height: 70vh;
+    padding:2vh 2vw;
+    background: var(--prim-color-lightBlue);
+    color: var(--prim-color-white);
+}
+
+.actions{
+    list-style:none;
+    display: flex;
+    margin:auto;
+    padding:0;
+}
+
+textarea#message {
+    width: 90%;
+}
+
+.field.full {
+    /* padding: .25rem 0; */
+    height: 2rem;
+}
+
+input.special {
+    background: var(--prim-color-white);
+    border: none;
+    border-radius: 0;
+    padding: 0.5rem;
+    margin: 0 .5rem;
+    font-family: nexa_bold, sans-serif;
+    border:solid 0.1rem; 
+    background:var(--prim-color-white);
+    color:var(--prim-color-lightBlue);
+    border:solid 0.1rem; 
+    border-color: var(--prim-color-lightBlue);
+}
+
+input.special:hover {
+    color:var(--prim-color-white);
+    background:var(--prim-color-lightBlue);
+    border:solid 0.1rem; 
+    border-color: var(--prim-color-lightBlue);
+    cursor: pointer;
+}
+
+input.clear {
+    background: var(--prim-color-grey);
+    border: none;
+    border-radius: 0;
+    padding: 0.5rem;
+    margin: 0 .5rem;
+    border:solid 0.1rem; 
+    border-color: var(--prim-color-grey);
+}
+
+input.clear:hover {
+    color:var(--prim-color-lightBlue);
+    background:none;
+    border:solid 0.1rem; 
+    border-color: var(--prim-color-lightBlue);
+    cursor: pointer;
 }

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../styles/page.css"
 import "../styles/global.css"
+import "../styles/page.css"
 
 import Layout from "../components/layout"
 import ImageStructuralEngineers from "../components/imageStructuralEngineers.js"
@@ -14,7 +14,7 @@ const StructuralEngineersPage = () => (
         <div className="header-image--container">
             <ImageStructuralEngineers />
             <div className="hero-text--container">
-                <h1 className="hero-text--items">Structural Engineers</h1>
+                <h1 className="hero-text--items page">Structural Engineers</h1>
             </div>
 
         </div>

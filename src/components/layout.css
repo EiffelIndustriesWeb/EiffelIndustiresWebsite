@@ -47,28 +47,3 @@ a:hover {
   color: #B9BABC;
 }
 
-h1.hero-text--items {
-  /* background-color: blue; */
-  height: 100%;
-  position: relative;
-  display: block;
-  background: var(--prim-color-lightBlue);
-  opacity: 0.9;
-  z-index: 100;
-  padding: 1vh 1vw;
-  margin: 0;
-  height: min-content;
-}
-
-h2.hero-text--items {
-  /* background-color: blue; */
-  height: 100%;
-  position: relative;
-  display: block;
-  background: var(--prim-color-lightBlue);
-  opacity: 0.9;
-  z-index: 100;
-  padding: 1vh 1vw;
-  margin: 0;
-  height: min-content;
-}

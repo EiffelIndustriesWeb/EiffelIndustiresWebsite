@@ -90,9 +90,9 @@ function SlideShowStructuralEngineering() {
         />
       </div>
       <div className="slideshow--nav-container">
-        <button onClick={() => handlePrevious()}>Previous</button>
+        <button className="slideshow--button" onClick={() => handlePrevious()}>Previous</button>
         {slideDots}
-        <button onClick={() => handleNext()}>Next</button>
+        <button className="slideshow--button" onClick={() => handleNext()}>Next</button>
       </div>
     </div >
   )

@@ -10,7 +10,7 @@ export default function Nav() {
                     parent="About Us"
                     child0="About"
                     link0="/about"
-                    child1="Press Release"
+                    child1="Press"
                     link1="/press"
                 />
             </li>
@@ -26,7 +26,7 @@ export default function Nav() {
                 />
             </li>
             <li className="nav-item--parent">
-                <Link to="">Contact</Link>
+                <Link to="/contact">Contact</Link>
             </li>
         </ul>
     )

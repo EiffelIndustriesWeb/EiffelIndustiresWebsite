@@ -7,7 +7,8 @@ import Layout from "../components/layout"
 import ImageAbout from "../components/imageAbout.js"
 
 import SEO from "../components/seo"
-import TeamUx from "../components/teamUx"
+
+import ReviewUi from "../components/reviewUi"
 
 const PressPage = () => (
     <Layout>
@@ -15,7 +16,7 @@ const PressPage = () => (
         <div className="header-image--container">
             <ImageAbout />
             <div className="hero-text--container">
-                <h1 className="hero-text--items">Press</h1>
+                <h1 className="hero-text--items page">Press</h1>
             </div>
 
         </div>
@@ -38,6 +39,7 @@ const PressPage = () => (
             <p className="page--text">Email: PublicRelations@localrecognitions.org</p>
             <p className="page--text">URL: http://www.localrecognitions.org</p>
         </div>
+        <ReviewUi />
         {/* <Link to="/page-2/">Go to page 2</Link> <br /> */}
     </Layout>
 )

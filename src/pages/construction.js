@@ -4,9 +4,10 @@ import "../styles/page.css"
 import "../styles/global.css"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
+
 import ImageConstruction from "../components/imageConstruction.js"
 import SlideshowConstruction from "../components/slideshowConstruction.js"
-import SEO from "../components/seo"
 
 const ConstructionPage = () => (
     <Layout>
@@ -14,7 +15,7 @@ const ConstructionPage = () => (
         <div className="header-image--container">
             <ImageConstruction />
             <div className="hero-text--container">
-                <h1 className="hero-text--items">Construction</h1>
+                <h1 className="hero-text--items page-light">Construction</h1>
             </div>
         </div>
         <div className="page--wrapper">

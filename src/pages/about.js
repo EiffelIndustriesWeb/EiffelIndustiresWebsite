@@ -15,7 +15,7 @@ const AboutPage = () => (
         <div className="header-image--container">
             <ImageAbout />
             <div className="hero-text--container">
-                <h1 className="hero-text--items">About Us</h1>
+                <h1 className="hero-text--items page">About Us</h1>
             </div>
 
         </div>
