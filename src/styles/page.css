@@ -118,7 +118,6 @@
 
 .slideshow--image {
     padding-top: 1vh;
-    height: 40vh;
 }
 
 .slideshow--button{
@@ -226,7 +225,7 @@
 .contact-page--container-contact{
     padding:2vh 2vw;
     position: relative;
-    height: 30vh;
+    height: auto;
 }
 
 .contact-page--container-hours {

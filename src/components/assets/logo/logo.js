@@ -1,9 +1,9 @@
 import React from 'react'
-
+import '../../header/header.css'
 export default function Logo() {
     return (
-        <svg id="Layer_1"
-            viewBox="0 0 500 195">
+        <svg id="logo-image"
+            viewBox="0 0 340 125">
             <g
                 id="g266"
                 transform="translate(-81.06,-187.4)">
