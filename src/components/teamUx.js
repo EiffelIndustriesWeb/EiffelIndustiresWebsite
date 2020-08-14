@@ -2,10 +2,15 @@ import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import PersonCard from "./personCard"
 import "../styles/page.css"
+
+//? Images found in /src/images/team 
+//? Hacky sorted on acending order
+//? Be sure to include number for indexing
+
 export default function TeamUx() {
     const { allFile } = useStaticQuery(graphql`
         query {
-            allFile(sort: {fields: name, order: DESC}, filter: {relativeDirectory: {eq: "team"}}) {
+            allFile(sort: {fields: name, order: ASC}, filter: {relativeDirectory: {eq: "team"}}) {
             edges {
             node {
                 id
@@ -51,8 +56,12 @@ export default function TeamUx() {
                 title="Executive Assistant to the CEO"
                 bio="As the current executive assistant for Eiffel Industries, LLC, Ellen oversees the management and day to day operations of both Eiffel Construction, Inc and Eiffel Structural Engineers, LLC. Ellen graduated from Portland State University with a Bachelor’s of Science in Psychology with an emphasis in Developmental Psychology and Research. She comes to Eiffel from New York City where she managed both medical and construction offices. She brings not only her ability to manage in a high pressure, fast paced environment, but also her extensive experience in customer service and client relationship management."
             />
-
-
+            <PersonCard
+                profileImage={({ node }.node[4].node.childImageSharp.fluid)}
+                name="Morgan Fekete"
+                title="Account Executive and Operations Coordinator"
+                bio="As the Account Executive and Operations Coordinator for Eiffel Industries, LLC, Morgan joins us with experience in both the legal and construction field. Morgan graduated from California State University Fullerton with a Bachelor’s degree in Communications, and a Minor in Psychology. She grew and streamlined each of her roles at a medical device legal office in California, and a home developer here in Arizona."
+            />
         </div>
     )
 }

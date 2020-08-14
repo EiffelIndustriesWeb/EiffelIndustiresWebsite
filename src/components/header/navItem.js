@@ -5,7 +5,7 @@ export default function NavItem(props) {
     const [openChild, setOpenChild] = useState(false)
 
     return (
-        <li className="nav-item--parent" onClick={() => setOpenChild(!openChild)}>
+        <li className="nav-item--child" onClick={() => setOpenChild(!openChild)}>
             {props.parent}
             {openChild && <ul className="childContainer">
                 <li><Link to={props.link0} >{props.child0}</Link></li>

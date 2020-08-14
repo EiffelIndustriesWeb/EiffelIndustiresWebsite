@@ -35,7 +35,7 @@ export default function NavMobile() {
                             />
                         </li>
                         <li className="nav-item--parent">
-                            <Link to="">Contact</Link>
+                            <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </>}
