@@ -93,7 +93,9 @@ li.nav-item--parent:hover{
     margin: 0;
     padding: 0;    
 }
-
+a {
+    font-family: 'nexa_bold';
+}
 /* Mobile Navigation */
 /* Hide Mobile nav and button */
 .mobile-nav-item--container,.mobile-nav--button{
