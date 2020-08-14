@@ -22,3 +22,28 @@
         font-size: 0.8rem;
     }
 }
+
+.footer-container--socials{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0;
+    height: auto;
+}
+
+.footer-socials--icon{
+    font-family:'nexa_bold';
+    /* background:var(--prim-color-lightBlue); */
+    margin:0 2vw;
+}
+
+.footer-socials--icon:hover{
+    font-family:'nexa_bold';
+    color:var(--prim-color-lightBlue);
+}
+
+.footer-socials--icon:focus{
+    font-family:'nexa_bold';
+    color:var(--prim-color-lightBlue);
+}

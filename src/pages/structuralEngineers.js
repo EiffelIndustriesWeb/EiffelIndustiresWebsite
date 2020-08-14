@@ -66,7 +66,7 @@ const StructuralEngineersPage = () => (
                     <li>Underpinning and Piles</li>
                 </ul>
             </div>
-            <h3>PORTFOLIO</h3>
+            <h3>CLIENTS</h3>
             <p>AZ (Natural Groceries and Fry’s Food Locations, USDA Forest Service Building, US Airways Arena Jumbo Tron)</p>
             <p>AZ AquaTots Head Quarters</p>
             <p>AZ Desert Diamond West Valley Casino</p>
