@@ -93,6 +93,12 @@ li.nav-item--parent:hover{
     margin: 0;
     padding: 0;    
 }
+
+.nav-item--child{
+    cursor: pointer;
+}
+
+
 a {
     font-family: 'nexa_bold';
 }

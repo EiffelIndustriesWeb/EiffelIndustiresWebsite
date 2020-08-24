@@ -6,7 +6,7 @@ export default function IndexCard(props) {
         <div className="index-card--wrapper">
             <img className="index-card--icon" src={props.icon} alt={props.title} />
             <h3 className="index-card--title">{props.title}</h3>
-            <p>{props.copy}</p>
+            <p className="index-card--text">{props.copy}</p>
         </div>
     )
 }

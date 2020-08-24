@@ -68,19 +68,37 @@
 
 .index-card--wrapper {
     text-align: center;
-    padding: 2vh 2vw;;
+    padding: 2vh 4vw;;
     width: 100vw;
     height: max-content;
+}
+
+.index-card--wrapper:first-of-type{
+    padding: 2vh 0 2vh 2vw;
+}
+
+.index-card--wrapper:last-of-type{
+    padding: 2vh 2vw 2vh 0;
 }
 
 img.index-card--icon {
     width: 35%;
 }
+
 .index-card--title{
     text-align:center;
     margin:auto ;
 }
+
+.index-card--text{
+    text-align:center;
+}
+
 @media only screen and (max-width: 1200px) {
+    .index-card--wrapper {
+        padding: 2vh 4vw;
+    }
+
     .hero-text--items{
         font-size: 2rem;
         line-height: 2.5rem;

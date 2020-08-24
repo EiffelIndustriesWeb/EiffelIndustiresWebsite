@@ -40,8 +40,8 @@ const AboutPage = () => (
             </ul>
             <h3>Professional Engineer Registration</h3>
             <ul className="page--text">
-                <li>Arizona License No. #44084</li>
-                <li>California License No. #C75921</li>
+                <li>Arizona License No. 44084</li>
+                <li>California License No. C75921</li>
             </ul>
             <h3>Key Persons</h3>
             <TeamUx />
