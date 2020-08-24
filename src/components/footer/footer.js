@@ -15,7 +15,7 @@ export default function Footer() {
                     <Link to="/construction" className="footer-text">Effiel Construction</Link></span>
             </div>
             <div className="footer-container">
-                <Link to="" className="footer-text"> 2501 North Hayden Road | Suite 101 | Scottsdale, AZ 8527</Link>
+                <Link to="" className="footer-text"> 2501 North Hayden Road | Suite 101 | Scottsdale, AZ 85257</Link>
                 {/* <div className="footer-container">
                     <Link To="" className="footer-text">Privacy Policy</Link>
                 </div > */}
