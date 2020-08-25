@@ -38,7 +38,7 @@ export default function Contact() {
                 </div>
                 <div className={'contact-page--container-hours'}>
                     <h2>Hours</h2>
-                    <p>Mon – Fri 9:00 am – 5:00 pm</p>
+                    <p>Mon – Fri 8:30 am – 5:00 pm</p>
                     <p>Sat – Sun Closed</p>
 
                     <h2>Location</h2>
@@ -47,7 +47,6 @@ export default function Contact() {
 
                     <h2>Direct</h2>
                     <p>Office: (480) 462-1733</p>
-                    <p>Fax: (480) 750-7010</p>
                 </div>
             </div>
         </Layout>
