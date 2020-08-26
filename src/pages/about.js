@@ -21,10 +21,10 @@ const AboutPage = () => (
         </div>
         <div className="page--wrapper">
             <h2 className="page-body--text-header">The EIFFEL Industries Advantage</h2>
-            <p className="page--text">We enter every construction site with the goal of working on the project with focused precision. We prefer to be involved in the early design phases of a project in order to work closely with the owner, architect, design/build contractor, and other consultants to make sure that the structure is cost-effective while guaranteeing that it meets the needs of everyone involved.
+            <p className="page--text">We enter every construction site with the goal of working on the project with focused precision. Our design-build team prefers to get involved in the early design phases of a project in order to work closely with the owner, architect, engineers and other consultants to make sure the structure is cost-effective while guaranteeing that it meets the needs of everyone involved.
             <p className="page--text">Our engineering team can design and engineer retail spaces, corporate offices, schools, hospitals, heavy industrial buildings, mixed-use development, multifamily homes, and new custom home builds.</p>
-                <p className="page--text">Our construction division has the experience and expertise to not only provide architectural and engineering services but to also undertake turnkey design build projects from inception to completion. Eiffel construction has the qualifications and experience for heavy industrial, wastewater, water treatment plants, commercial, retail, offices, and mixed-use development.</p>
-                <p className="page--text">What sets us apart is our ability to use our in house IT solutions and tools to increase our efficiently in project management and project execution.</p>
+                <p className="page--text">Our construction division has the experience and expertise to not only provide architectural and engineering services but to also undertake turnkey design build projects from inception to completion. Eiffel construction has the qualifications and experience to build heavy industrial, wastewater and water treatment plants, commercial, retail, offices, and mixed-use development.</p>
+                <p className="page--text">What sets us apart is as a company is our ability to use in house IT solutions and tools to increase our efficiently in project management and project execution.</p>
             </p>
             <h3>Memberships and Affiliations</h3>
             <ul className="page--text">
@@ -33,15 +33,15 @@ const AboutPage = () => (
                 <li>American Society of Civil Engineers (ASCE, Affiliate Member)</li>
             </ul>
 
-            <h3>Licenses</h3>
+            <h3>ROC Licenses</h3>
             <ul className="page--text">
                 <li>KB-1 311191</li>
                 <li>A 162106</li>
             </ul>
             <h3>Professional Engineer Registration</h3>
             <ul className="page--text">
-                <li>Arizona License No. 44084</li>
-                <li>California License No. C75921</li>
+                <li>Arizona PE License No. 44084</li>
+                <li>California PE License No. C75921</li>
             </ul>
             <h3>Key Persons</h3>
             <TeamUx />

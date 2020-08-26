@@ -39,6 +39,16 @@
     padding: 1rem;
 }
 
+/* When used as title for Better Build */
+.page-title--link{
+    color: var(--prim-color-white);
+    font-family: nexa_bold, sans-serif;
+    background: var(--prim-color-lightBlue);
+    padding: 1rem;
+    margin-bottom:2vh;
+}
+
+/* Regular link */
 .page-text--link{
     color: var(--prim-color-white);
     font-family: nexa_bold, sans-serif;
