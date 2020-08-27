@@ -4,8 +4,8 @@ import SEO from "../components/seo"
 import MapContact from '../components/map/map'
 
 import "../styles/page.css"
-export default function Contact() {
 
+export default function Contact() {
 
     return (
         <Layout>

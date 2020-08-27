@@ -29,15 +29,15 @@ const PressPage = () => (
                 <p className="page--text">Each year, the Scottsdale Award Program identifies companies that we believe have achieved exceptional marketing success in their local community and business category. These are local companies that enhance the positive image of small business through service to their customers and our community. These exceptional companies help make the Scottsdale area a great place to live, work and play.</p>
                 <p className="page--text">Various sources of information were gathered and analyzed to choose the winners in each category. The 2019 Scottsdale Award Program focuses on quality, not quantity. Winners are determined based on the information gathered both internally by the Scottsdale Award Program and data provided by third parties.</p>
             </p>
+
             <h3>About Scottsdale Award Program</h3>
             <p className="page--text">The Scottsdale Award Program is an annual awards program honoring the achievements and accomplishments of local businesses throughout the Scottsdale area. Recognition is given to those companies that have shown the ability to use their best practices and implemented programs to generate competitive advantages and long-term value.</p>
             <p className="page--text">The Scottsdale Award Program was established to recognize the best of local businesses in our community. Our organization works exclusively with local business owners, trade groups, professional associations and other business advertising and marketing groups. Our mission is to recognize the small business community’s contributions to the U.S. economy.</p>
-
             <p className="page--text">SOURCE: Scottsdale Award Program</p>
             <p className="page--text">CONTACT:</p>
             <p className="page--text">Scottsdale Award Program</p>
             <p className="page--text">Email: PublicRelations@localrecognitions.org</p>
-            <p className="page--text">URL: http://www.localrecognitions.org</p>
+            <p className="page--text">URL: <link to="http://www.localrecognitions.org"></link></p>
         </div>
         <ReviewUi />
         {/* <Link to="/page-2/">Go to page 2</Link> <br /> */}
