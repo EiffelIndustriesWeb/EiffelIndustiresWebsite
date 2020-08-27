@@ -47,7 +47,7 @@ export default function TeamUx() {
             <PersonCard
                 profileImage={({ node }.node[2].node.childImageSharp.fluid)}
                 name="Phil Reed"
-                title="Senior Business Development"
+                title="Senior VP of Business Development"
                 bio="Phil is a seasoned construction professional with over 40 years of management experience at the executive and project level. His experience includes a wide range of project types, such as refinery, water, wastewater, material handling, power facility, and commercial construction. He is a Veteran of the United States Army, a Journeyman Iron worker, has a B.A. Business Administration, and a M.A. Management & Business Administration."
             />
             <PersonCard

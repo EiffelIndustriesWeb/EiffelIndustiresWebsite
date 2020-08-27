@@ -37,9 +37,15 @@
     width: fit-content;
     color: white;
     padding: 1rem;
+    margin:0;
 }
 
 /* When used as title for Better Build */
+.link-title--container{
+    position: relative;
+    padding: 1rem 0;
+}
+
 .page-title--link{
     color: var(--prim-color-white);
     font-family: nexa_bold, sans-serif;
@@ -64,7 +70,7 @@
 
 @media only screen and (max-width: 1200px) {
     .page-list--container{
-        width: 100%;
+        width: auto;
     }
 }
 
@@ -205,6 +211,11 @@
     cursor: pointer;
 }
 
+.betterBuild-team--img {
+    max-width: 1200px;
+    width: 75%;
+    margin: auto;
+}
 
 .reviewCard--wrapper{
     display: flex;
@@ -237,27 +248,38 @@
 
 /* Contact Page */
 .contact-page--wrapper {
-    min-height: 80vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
-    padding: 0;
+    width: 96vw;
+    max-width: 1200px;
+    min-height: 80vh;
+    padding: 2rem 2vw;
+    margin: auto;
     color: var(--prim-color-lightBlue);
     background: var(--prim-color-white);
 }
 
-.contact-page--container-contact{
-    padding:2vh 2vw;
+.contact-page--container {
     position: relative;
-    height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2vh 2vw;
+}
+
+.contact-page--container-contact{
+    flex-direction: row;
+    width: 50%;
 }
 
 .contact-page--container-hours {
-    width: 100vw;
-    height: 70vh;
-    padding:2vh 2vw;
-    background: var(--prim-color-lightBlue);
-    color: var(--prim-color-white);
+    height: 100%;
+    width: 50%;
+    margin:0 2vw;
+}
+
+.contact-page--container-map{
+    max-height: 40vh;
 }
 
 .actions{
