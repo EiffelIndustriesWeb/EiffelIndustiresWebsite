@@ -32,18 +32,27 @@
     height: auto;
 }
 
-.footer-socials--icon{
-    font-family:'nexa_bold';
-    /* background:var(--prim-color-lightBlue); */
-    margin:0 2vw;
+.footer-socials--icon {
+    font-family: nexa_bold;
+    margin: 0 2vw;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: .7;
+}
+.ln{
+    background:#0e76a8;
+}
+.fb{
+    background:#4267B2;
+}
+.ig{
+    background:#4c68d7;
 }
 
-.footer-socials--icon:hover{
-    font-family:'nexa_bold';
-    color:var(--prim-color-lightBlue);
-}
-
-.footer-socials--icon:focus{
-    font-family:'nexa_bold';
-    color:var(--prim-color-lightBlue);
+.footer-socials--icon:hover,.footer-socials--icon:focus{
+    opacity: 1;
 }

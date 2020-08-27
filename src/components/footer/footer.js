@@ -23,9 +23,9 @@ export default function Footer() {
                     © 2020 EIFFEL INDUSTRIES - All Rights Reserved
                 </div >
                 <div className="footer-container--socials">
-                    <span><Link to="https://www.linkedin.com/company/eiffel-industries-llc/" className="footer-socials--icon">L</Link></span>
-                    <span><Link to="https://www.facebook.com/EiffelIndustries/" className="footer-socials--icon">F</Link></span>
-                    <span><Link to="https://www.instagram.com/eiffelindustriesllc/" className="footer-socials--icon">I</Link></span>
+                    <Link className="footer-socials--icon ln" to="https://www.linkedin.com/company/eiffel-industries-llc/" >L</Link>
+                    <Link className="footer-socials--icon fb" to="https://www.facebook.com/EiffelIndustries/" >F</Link>
+                    <Link className="footer-socials--icon ig" to="https://www.instagram.com/eiffelindustriesllc/" >I</Link>
                 </div >
             </div >
         </div >
