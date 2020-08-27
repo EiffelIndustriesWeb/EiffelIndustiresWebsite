@@ -40,7 +40,7 @@ function SlideShowConstruction() {
     `
   )
 
-  const length = allFile.edges.length - 2
+  const length = allFile.edges.length - 1
   const { node } = allFile.edges[index]
 
   // SlideShow timer
