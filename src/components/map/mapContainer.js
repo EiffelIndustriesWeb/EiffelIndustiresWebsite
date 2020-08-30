@@ -30,7 +30,7 @@ export default function MapContainer(props) {
                 <Marker
                     onClick={() => handleMarker()}
                     title={'Visit'}
-                    name={'EIFFEL INDUSTRIESE'}
+                    name={'EIFFEL INDUSTRIES'}
                     position={{
                         lat: 33.4755261,
                         lng: -111.90842
