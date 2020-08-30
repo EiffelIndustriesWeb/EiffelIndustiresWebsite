@@ -4,6 +4,6 @@ import MapContainer from './mapContainer'
 
 export default GoogleApiWrapper(
     (props) => ({
-        apiKey: process.env.GATSBY_GOOGLE_MAPS_STATIC_API_KEY,
+        apiKey: process.env.GATSBY_GOOGLE_API_KEY,
     }
     ))(MapContainer)
