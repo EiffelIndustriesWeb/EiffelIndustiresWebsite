@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 
 const BetterBuildPage = () => (
     <Layout>
-        <SEO title="Structural Engineers" />
+        <SEO title="Better Build" />
         <div className="header-image--container-full">
             <ImageBetterBuild />
             <div className="hero-text--container">
