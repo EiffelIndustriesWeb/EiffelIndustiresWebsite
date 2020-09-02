@@ -187,17 +187,6 @@
     max-width: 1200px;
 }
 
-@media only screen and (max-width: 650px) {
-    .hero-text--container {
-        top: -10vh;
-        }
-            
-    .slideshow--image {
-        width: 100%;
-        margin: auto;
-    }
-}
-
 .slideshow--button{
     background: var(--prim-color-white);
     color: var(--prim-color-lightBlue);
@@ -220,6 +209,7 @@
     width: 50%;
     margin: auto;
 }
+
 
 .reviewCard--wrapper{
     display: flex;
@@ -346,4 +336,23 @@ input.clear:hover {
     border:solid 0.1rem; 
     border-color: var(--prim-color-lightBlue);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+    .hero-text--container {
+        top: -10vh;
+        }
+            
+    .slideshow--image {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .betterBuild-team--img {
+        width: 100%;
+    }
+    
+    .contact-page--container {
+        flex-direction: column;
+    }
 }
