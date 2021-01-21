@@ -47,8 +47,8 @@ const ConstructionPage = () => (
             <p className="page--text">We develop the total area (square footage) by identifying all spaces needed: teaching stations, large-and small-group learning spaces, support facilities, staff offices, media center, flexible team learning areas, technology center, auditorium, food service, custodial, mechanical and electrical, administrative, circulation and student commons. Active and passive security design of facilities and systems. The spatial relationship of teaching stations, departments, offices, circulation, and support spaces that supports and promotes the educational philosophy and adheres to the building and fire/life-safety codes. Schools need to be built to last. The materials, systems and furnishings must stand up to heavy use and abuse, be economical to operate and maintain, and provide security. Unique characteristics and amenities will influence the design, location and orientation of the building, as well as vehicle and pedestrian access, egress and circulation patterns, parking, the layout of athletic and physical education fields, and nature areas.</p>
             <h4>Industrial Buildings</h4>
             <p className="page--text">Factories and other premises for manufacturing, altering, repairing, cleaning, washing, breaking-up, adapting or processing Real Estate Upgrades for Commercial Development Residential Custom Homes Owner’s Representative for Developers.</p>
-            <h4>Heavy Industrial</h4>
-            <p className="page--text">Waste Water treatment plant, Water treatment plant, Gas and Solar Power plants, Dams and Heavy Highways</p>
+            <h4>Industrial</h4>
+            <p className="page--text">Waste Water treatment plant, Water treatment plant</p>
         </div>
         {/* <Link to="/page-2/">Go to page 2</Link> <br /> */}
     </Layout>
