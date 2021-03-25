@@ -101,6 +101,7 @@
 .person-card--image--container {
     display: flex;
     justify-content: start;
+    justify-content: flex-start;
     text-align: center;
     margin: auto;
 }
