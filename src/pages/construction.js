@@ -24,7 +24,7 @@ const ConstructionPage = () => (
             </p>
             <p className="page--text">Our vision is to provide tailored Construction solutions to global clients across multiple market verticals through highly efficient collaborative environment solving actual construction challenges ahead with the best in class leadership and leading-edge technology, and with the least footprint on our environment.</p>
             <p className="page--text">For our residential California clients, please see our affiliate site </p>
-            <Link to="http://wildfiredesignbuild.com/" className='page-text--link'>Wild Fire Design Build</Link>
+            <Link to="http://www.wildfiredesignbuildinc.com/about" className='page-text--link'>Wild Fire Design Build</Link>
             <SlideshowConstruction />
             <h3>Construction Services:</h3>
             <h4>Commercial Retail</h4>

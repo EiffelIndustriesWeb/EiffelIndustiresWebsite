@@ -51,27 +51,28 @@ export default function TeamUx() {
                 bio="Phil is a seasoned construction professional with over 40 years of management experience at the executive and project level. His experience includes a wide range of project types, such as refinery, water, wastewater, material handling, power facility, and commercial construction. He is a Veteran of the United States Army, a Journeyman Iron worker, has a B.A. Business Administration, and a M.A. Management & Business Administration."
             />
             <PersonCard
-                profileImage={({ node }.node[3].node.childImageSharp.fluid)}
-                name="Ellen Gould"
-                title="Construction Project Coordinator"
-                bio="As the current Construction Project Coordinator for Eiffel Industries, LLC, Ellen oversees the management, project operations/administration, and day to day operations of both Eiffel Construction, Inc and Eiffel Construction & Engineering, LLC. Ellen graduated from Portland State University with a Bachelor’s Science in Psychology with an emphasis in Developmental Psychology and Research. She comes to Eiffel from New York City where she managed both medical and construction offices. She brings not only her ability to manage in a high pressure, fast paced environment, but also her extensive experience in customer service and client relationship management. Ellen is OSHA 30 and CPR/AED/First Aide."
-            />
-            <PersonCard
-                profileImage={({ node }.node[4].node.childImageSharp.fluid)}
-                name="Morgan Fekete"
-                title="Account Executive and Operations Coordinator"
-                bio="As the Account Executive and Operations Coordinator for Eiffel Industries, LLC, Morgan joins us with experience in both the legal and construction field. Morgan graduated from California State University Fullerton with a Bachelor’s degree in Communications, and a Minor in Psychology. She grew and streamlined each of her roles at a medical device legal office in California, and a home developer here in Arizona."
-            />
-            <PersonCard
                 profileImage={({ node }.node[5].node.childImageSharp.fluid)}
                 name="Rod Johnson"
                 title="General Manager"
                 bio="Rod has been in the construction trades and management business for over 40 years in all facets of Public Work contracts, specifically Heavy Civil Engineering, Wastewater Treatment Plants, Fresh Water Treatment Plants, Roadwork, Pipelines, and many other projects in the Engineering field. Rod has been associated and participated in the administration of contracts from the initial schedule development, buy-outs, and through Contact Completion. The implementation of proper construction methods is one of his strongest advantages, while supervising all labor classes, and negotiating subcontracts and purchase agreements. He has experience scheduling work activities and coordinating the tasks at hand, in order to facilitate successful achievement to the various project milestones/completion dates. Rod is certified as an inspector for HDPE fusion of pipe to 36” and electrofusion to 12”, he holds a current CCO license for crane operators, OSHA 30, BASIC PLUS, Confined space, and CPR."
             />
             <PersonCard
+                profileImage={({ node }.node[3].node.childImageSharp.fluid)}
+                name="Ellen Gould"
+                title="Construction Project Coordinator"
+                bio="As the current Construction Project Coordinator for Eiffel Industries, LLC, Ellen oversees the project management, project operations/administration, and day to day operations of both Eiffel Construction, Inc and Eiffel Construction & Engineering, LLC. Ellen graduated from Portland State University with a Bachelor’s Science in Psychology with an emphasis in Developmental Psychology and Research. She comes to Eiffel from New York City where she managed both medical and construction offices. She brings not only her ability to manage in a high pressure, fast paced environment, but also her extensive experience in customer service and client relationship management. Ellen is OSHA 30 and CPR/AED/First Aide."
+            />
+            <PersonCard
+                profileImage={({ node }.node[4].node.childImageSharp.fluid)}
+                name="Morgan Fekete"
+                title="Account Executive and Operations Coordinator"
+                bio="As the Account Executive and Operations Coordinator for Eiffel Structural Engineers, LLC, Morgan joins us with experience in both the legal and construction field. Morgan graduated from California State University Fullerton with a Bachelor’s degree in Communications, and a Minor in Psychology. She grew and streamlined each of her roles at a medical device legal office in California, and a home developer here in Arizona."
+            />
+
+            <PersonCard
                 profileImage={({ node }.node[6].node.childImageSharp.fluid)}
                 name="Marisa Stone"
-                title="Account Executive"
+                title="Accounting Executive"
                 bio="Marisa is the Accounting Executive for Eiffel Industries, LLC and handles all internal accounting procedures. She graduated with a Bachelor of Arts degree in Communications with an emphasis in Public Relations from California State University Fullerton and has an Associate of Arts degree in Business Administration. Coming from a diverse business background ranging from medical supply distribution to design and technology, Marisa brings over a decade of experience from many industries both domestically and internationally."
             />
         </div>
