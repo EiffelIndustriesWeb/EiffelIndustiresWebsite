@@ -21,13 +21,15 @@ const PressPage = () => (
 
         </div>
         <div className="page--wrapper">
-            <h2 className="page-body--text-header">Eiffel Structural Engineers, LLC Receives 2019 Best of Scottsdale Award</h2>
+            <h2 className="page-body--text-header">Eiffel Construction</h2>
 
             <h3>Hopi Tutuveni</h3>
             <p>OFFICIAL NEWSPAPER OF THE HOPI TRIBE</p>
             <p className="page--text">Kykotsmovi February 3, 2021  — Location, Location, Location - the Corner of Any Successful Business Storefront</p>
             <p className="page--text"> <Link to="https://www.hopi-nsn.gov/wp-content/uploads/2021/02/FINAL-FEB-3-issue-2.pdf">Link</Link></p>
             <br />
+
+            <h2 className="page-body--text-header">Eiffel Structural Engineers</h2>
 
             <h3>Scottsdale Award Program Honors the Achievement</h3>
             <p className="page--text">Scottsdale September 24, 2019 — Eiffel Structural Engineers, LLC has been selected for the 2019 Best of Scottsdale Award in the Structural Engineer category by the Scottsdale Award Program.
