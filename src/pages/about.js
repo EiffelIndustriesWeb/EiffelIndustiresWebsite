@@ -33,11 +33,15 @@ const AboutPage = () => (
                 <li>American Society of Civil Engineers (ASCE, Affiliate Member)</li>
             </ul>
 
-            <h3>ROC Licenses</h3>
+            <h3>AZ ROC Licenses</h3>
             <ul className="page--text">
                 <li>KB-1 311191</li>
                 <li>A 330415</li>
             </ul>
+            <h3>CA ROC Licenses</h3>
+            <ul className="page--text">
+                A 1075037
+                </ul>
             <h3>Professional Engineer Registration</h3>
             <ul className="page--text">
                 <li>Arizona PE License No. 44084</li>

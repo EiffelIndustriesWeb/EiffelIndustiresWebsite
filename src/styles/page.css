@@ -56,6 +56,13 @@
 
 /* Regular link */
 .page-text--link{
+    background: var(--prim-color-white);
+    font-family: nexa_bold, sans-serif;
+    color: var(--prim-color-lightBlue);
+    padding: 1rem;
+    margin-bottom:2vh;
+}
+.page-text--link:hover{
     color: var(--prim-color-white);
     font-family: nexa_bold, sans-serif;
     background: var(--prim-color-lightBlue);
@@ -183,7 +190,7 @@
 }
 
 .slideshow--image {
-    width: 75%;
+    height: 50vh;
     margin: auto;
     max-width: 1200px;
 }
@@ -360,4 +367,39 @@ input.clear:hover {
     .contact-page--container-contact {
         width: 100%;
     }
+}
+
+.service-box--wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    justify-content: end;
+     margin:0;
+    padding:0;
+}
+
+.service-box--container {
+    width: 30vw;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .service-box--container {
+        width: 47vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .service-box--container {
+        width: 100vw;
+    }
+}
+.service-box--title{
+    height: 3rem;
+    padding: .25rem 1rem;
+}
+.service-box--title:hover {
+    background: var(--prim-color-lightBlue);
+    color: var(--prim-color-white);
 }

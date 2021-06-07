@@ -21,7 +21,7 @@ const BetterBuildPage = () => (
         </div>
         <div className="page--wrapper">
             <div className="link-title--container">
-                <Link className="page-title--link" to="https://dunamispacific.com/products">Visit Better Build</Link>
+                <a className="page-title--link" href="https://dunamispacific.com/products">Visit Better Build</a>
             </div>
             <p className="page--text">Better Build is a premier software solution owned by Dunamis Pacific Corporation, an Eiffel Industries Enterprise.</p>
             <p className="page--text">Dunamis Pacific Corp is a professional IT strategy and enterprise solutions firm where highly experienced IT professionals collaborate together to create and deliver innovative, transparent and agile solutions geared towards increasing our clients’ efficiency, market share and bottom line.</p>
