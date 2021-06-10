@@ -91,7 +91,7 @@ function SlideShowConstruction() {
       </div>
       <div className="slideshow--nav-container">
         <button className="slideshow--button" onClick={() => handlePrevious()}>Previous</button>
-        {slideDots}
+        <div className="slideshow--dots">{slideDots}</div>
         <button className="slideshow--button" onClick={() => handleNext()}>Next</button>
       </div>
     </div >

@@ -1,10 +1,14 @@
-.footer--wrapper{
+.footer{
     width: 100vw;
+    background:var(--prim-color-grey);
+    display: flex;
+    padding:1vh 1vw;
+}
+.footer--wrapper{
+    width: 90%;
     text-align:center;
     margin: auto;
-    background:var(--prim-color-grey);
     color: var(--prim-color-white);
-    padding:1vh 0;
 }
 
 .footer-container{
@@ -24,7 +28,7 @@
 }
 
 .footer-container--socials{
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,4 +59,18 @@
 
 .footer-socials--icon:hover,.footer-socials--icon:focus{
     opacity: 1;
+}
+
+.footer--SDVOSB-container{
+    width:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:3%;
+}
+
+.footer--SDVOSB-image{
+    width:100%;
+    max-width:70px;
+    height:auto;
 }
