@@ -21,7 +21,7 @@ export default function Footer() {
                     <Link To="" className="footer-text">Privacy Policy</Link>
                 </div > */}
                     <div className="footer-container">
-                        © 2020 EIFFEL INDUSTRIES - All Rights Reserved
+                        © 2021 EIFFEL INDUSTRIES - All Rights Reserved
                 </div >
                     <div className="footer-container--socials">
                         <Link className="footer-socials--icon ln" to="https://www.linkedin.com/company/eiffel-industries-llc/" >L</Link>
