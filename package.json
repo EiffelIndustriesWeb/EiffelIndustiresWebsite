@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Eiffel Industries",
   "dependencies": {
-    "gatsby": "^3.0.0",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^3.6.0",
     "gatsby-plugin-google-analytics": "^3.6.0",
     "gatsby-plugin-manifest": "^3.6.0",
